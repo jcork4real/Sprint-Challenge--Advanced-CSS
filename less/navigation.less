@@ -1,1 +1,53 @@
 // Navigation code here
+nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    // border: solid;
+    max-width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    .background();
+
+    @media @phone{
+       max-width: 500px;
+       
+
+
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        // border: solid;
+        // font-size: 4rem;
+        .font-size(4rem);
+        
+      
+    }
+
+    .links{
+        
+        display:flex;
+        justify-content: space-between;
+        // font-size: 1.8rem;
+        .font-size(1.8rem);
+        // border: solid;
+        margin: 15px 300px 0 300px;
+
+
+        @media @phone{
+           margin: 20px 50px 0 50px;
+     
+         }
+     
+        
+        a{
+            text-decoration: none;
+            color: @header-font-color;
+            font-weight: 600;
+        }
+        
+     }
+    
+}

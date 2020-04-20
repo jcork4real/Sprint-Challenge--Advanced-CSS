@@ -1,1 +1,24 @@
 // Mixins Here
+
+// Create two mixins to aid your styling
+
+// 1. First
+
+.font-size(@size){
+
+    font-size: @size;
+
+}
+
+// 2. Second
+
+.background{
+    background: lightgrey;
+}
+
+
+//  Parametric Mixin for signup button
+.display-flex(@display, @content ){
+    display: @display;
+    justify-content: @content;
+}
