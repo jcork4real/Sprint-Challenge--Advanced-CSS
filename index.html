@@ -1,4 +1,49 @@
-<!doctype html>
+<!-- Sprint Challenge Questions
+
+
+
+
+1. What is the difference between an adaptive website and a fully responsive website?
+
+	With adaptive layout, we take the fixed layout code and apply media queries to it.
+
+	Responsive uses constraints with % based layouts for that seamless feeling between devices. 
+	For example, can use a css property of max-width to control the maximum width of a container while also providing % flexibility below it. 
+
+	
+
+
+2. Describe what it means to be mobile first vs desktop first.
+
+	Mobile first implies you will design and code for a mobile device first, and expand layout or features as you gain more screen space toward desktop.
+
+	Desktop first is the oppossite of mobile first, where you design for desktop device first, and then adjust layout or features as you reduce screen space towards mobile screen display.
+
+
+3. What does font-size: 62.5% in the html tag do for us when using rem units?
+
+	Assuming the browsers default front size is 16px, setting the font size in html to 62.5% sets fonts to the entire page to 10px. Which makes it easier to calculate rem units. For example: 1 rem = 10 px, and 1.5 rem = 15 px.
+	Therefore, making it easier to apply override text in other parts of the web page by being able to calculate rem values for fonts on the fly.
+
+
+4. How would you describe preprocessing to someone new to CSS?
+
+		
+	CSS on its own is great. But stylesheets are getting larger, more complex, and harder to maintain. This is where a preprocessor can help. Less lets you use features that don't exist in CSS yet like variables, nesting, mixins, and others that make writing CSS quick and keep it DRY.
+		
+
+
+5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+	
+	I like the idea of nesting in Less since it allows me to have more control over which areas I need to use specificity, and better understand parent and child relationships. Because of this, I am able to write code much quicker.I don't have much trouble at all using variabnles, mixins and nesting. 
+	
+	The only thing I find a little confusing is that mixins are written like classes are, but used differently. 
+
+You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section will prevent you from passing this challenge.
+ -->
+
+ <!doctype html>
 
 <html lang="en">
 <head>
@@ -83,7 +128,7 @@
       </div>
       
       <div class="walk-img">
-          <img src="img/space-walk.png" alt="Space walking astronaut">
+          <img src="img/space-walk.png" class="astro" alt="Space walking astronaut">
       </div>
 
     </section>
